@@ -1,4 +1,4 @@
-# vue2-ace
+# vue2-ace-savior
 
 A Vue2 component for including the [ace editor](https://ace.c9.io/).
 
@@ -85,11 +85,8 @@ data () {
 ```
 
 Last but not least listen on the `editor-update`. Make sure to replace
-`vm.function` with the function you want to execute.
+`function` with the function you want to execute.
 
 ```
-mounted () {
-  var vm = this;
-  vm.$on('editor-update', vm.function);
-}
+<editor :content="variable" :options="options" @editor-update="function()"></editor>
 ```
