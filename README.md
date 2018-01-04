@@ -1,4 +1,4 @@
-# vue2-ace-savior
+# vue2-ace
 
 A Vue2 component for including the [ace editor](https://ace.c9.io/).
 
