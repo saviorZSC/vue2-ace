@@ -2,10 +2,12 @@
 
 A Vue2 component for including the [ace editor](https://ace.c9.io/).
 
+Fork from https://github.com/dhenkes/vue2-ace
+
 ### Installation
 
 ```
-npm install --save vue2-ace
+npm install git://git@github.com:saviorZSC/vue2-ace.git
 ```
 
 ### How to use
@@ -13,7 +15,7 @@ npm install --save vue2-ace
 Import the component, the mode and the theme in `<script>`.
 
 ```
-import editor from 'vue2-ace'
+import editor from 'vue2-ace-savior'
 import 'brace/mode/javascript'
 import 'brace/theme/chrome'
 ```
